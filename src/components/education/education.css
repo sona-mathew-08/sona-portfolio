@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-education{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.education h1{
+   
+   color: var(--color-primary);
+   font-weight: 700;
+   font-size: 50px;
+   
+}
+.mec-logo{
+    width:200px;
+    height:90px;
+    margin-bottom: 10px;
+}
+.saps-logo{
+    max-width: 90px;
+    height: 90px;
+}
+@media screen and (min-width: 1180px) {
+    .education h1{
+        writing-mode: vertical-rl;
+    left: -50px;
+    transform: rotate(180deg);
+   color: var(--color-primary);
+   font-weight: 700;
+   font-size: 100px;
+   margin-top: 300px;
+    }
+  }
